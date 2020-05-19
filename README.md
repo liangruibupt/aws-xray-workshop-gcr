@@ -91,4 +91,6 @@ For example:
 1. [Nodejs Express Sample App Instrumented with AWS X-Ray Running on EC2](Nodejs-Example.md)
 2. [AWS X-Ray support for Python web frameworks used in Serverless applications Running on Lambda and API Gateway](Pyhton-Example.md)
 3. [AWS X-Ray SDK for Java](Java-Example.md)
-4. [Application Tracing on Kubernetes with AWS X-Ray](EKS-XRay.md)
+4. [.Net with AWS X-Ray](Net-Example.md)
+5. [Application Tracing on Kubernetes with AWS X-Ray](EKS-XRay.md)
+6. [Run AWS X-Ray as a sidecar container on Fargate for application tracing](EKS-XRay.md)
