@@ -65,10 +65,8 @@ You can drill down to traces for individual requests, or use filter expressions 
 ## Supported AWS services
 - Lambda
 - API Gateway
-- Elastic Load Balancing
+- EC2
 - Elastic Beanstalk
-- SNS
-- SQS
 - Step Function
 
 ## Code and configuration changes
