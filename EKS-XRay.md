@@ -76,7 +76,7 @@ By default, the X-Ray SDK expects the daemon to be available on 127.0.0.1:2000 a
 
 The deployed X-Ray DaemonSet exposes all Pods via the Kubernetes service discovery, so applications can use this endpoint to discover the X-Ray daemon. If you deployed to the default namespace, the endpoint is: `xray-service.default`
 
-Applications now need to set the daemon address either with the `AWS_XRAY_DAEMON_ADDRESS` environment variable (**preferred**) or directly within the SDK setup code: `AWSXRay.setDaemonAddress('xray-service.default:2000');`
+Applications now need to set the daemon address either with the `AWS_XRAY_DAEMON_ADDRESS` environment variable to `xray-service.default:2000` (**preferred**) or directly within the SDK setup code: `AWSXRay.setDaemonAddress('xray-service.default:2000');`
 
 To set up the environment variable, include the following information in your Kubernetes application deployment description YAML. 
 ```yaml
@@ -139,6 +139,10 @@ curl http://$front_k8s_alb
 
 # Open Browser for http://$front_k8s_alb
 ```
+
+![k8s-xary-front](media/k8s-xary-front.png)
+
+![k8s-xary-front-back](media/k8s-xary-front-back.png)
 
 # Cleanup
 ```
