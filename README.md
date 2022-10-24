@@ -91,4 +91,4 @@ For example:
 3. [AWS X-Ray SDK for Java](Java-Example.md)
 4. [.Net with AWS X-Ray](Net-Example.md)
 5. [Application Tracing on Kubernetes with AWS X-Ray](EKS-XRay.md)
-6. [Run AWS X-Ray as a sidecar container on Fargate for application tracing](EKS-XRay.md)
+6. [Run AWS X-Ray as a sidecar container on Fargate for application tracing](ECS-Fargate-XRay.md)
